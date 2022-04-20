@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { UsersComponent } from './users/users.component';
-import { reposComponent } from './repos/repos.component';
+import { ReposComponent } from './repos/repos.component';
 
 
 const routes: Routes = [
   {path:"users", component:UsersComponent},
-  {path:"repos", component: reposComponent},
+  {path:"repos", component: ReposComponent},
   // {path: "", redirectTo:"/user-profile", pathMatch:"full"},
   // {path:"**",component:NotfoundComponent}
 ];
