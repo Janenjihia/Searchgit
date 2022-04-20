@@ -8,6 +8,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ReposComponent } from './repos/repos.component';
 import { UsersComponent } from './users/users.component';
 import { DatePipePipe } from './date-pipe.pipe';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { DatePipePipe } from './date-pipe.pipe';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
