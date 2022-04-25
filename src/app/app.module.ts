@@ -11,6 +11,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { ApiService } from './api.service';
 import { formComponent } from './form/form.component';
+import { HighlightDirective } from './highlight.directive';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,6 +20,7 @@ import { formComponent } from './form/form.component';
     UsersComponent,
     DatePipePipe,
     formComponent,
+    HighlightDirective,
   ],
   imports: [
     BrowserModule,
